@@ -11,11 +11,11 @@ class SearchForm extends Component {
   render() {
     return (
       <form onSubmit={this.handleSubmit}>
-        <label>
+         <label>
           Name:
           <input type="text" value={this.props.searchValue} onChange={this.handleChange} />
         </label>
-        <input type="submit" value="Submit" />
+        <input id="search-button" type="submit" value="Search" />
       </form>
     );
   }

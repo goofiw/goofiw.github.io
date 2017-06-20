@@ -39,19 +39,21 @@ class App extends Component {
       <div className="App">
         <div className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to LX location search!</h2>
+
         </div>
         <SearchForm
           searchValue={searchValue}
           onSearchSubmit={(event) => this.handleSearchSubmit(event)}
           onSearchChange={(event) => this.handleSearchChange(event)}
         />
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+        <div class="listing">
+          <h2 class="list-title">Title</h2>
+          <h3 class="list-distance">miles</h3>
+        </div>
       </div>
     );
   }
 }
+
 
 export default App;

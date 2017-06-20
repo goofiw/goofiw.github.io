@@ -1,3 +1,66 @@
+/* temporary */
+label {
+  display: none;
+}
+
+/* end of temporary */
+/* Palette
+Background: ededed
+Default font: 1f1f1f
+Pink (accent): ff0051
+*/
+
+body {
+  font-size: 14px;
+  line-height: 20px;
+  background-color: #ededed;
+}
+
+.App {
+
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 30s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #404040;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+#search-button {
+  font-size: 2em;
+  line-height: 2;
+  background: #FF0051;
+  width: 100%;
+  border: 0;
+
+
+}
+
+/* card styling */
+.listing {
+  display: block;
+  width: 100%;
+  background-color: #fff;
+  padding: 10px;
+}
+
+/* end card styling */
+
+/* Original CSS
 .App {
   text-align: center;
 }
@@ -22,3 +85,4 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+*/
