@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import SearchForm from './SearchForm';
+import ActivityCard from './ActivityCard';
 import $ from 'jquery';
 
 class App extends Component {
@@ -49,7 +50,10 @@ class App extends Component {
         <div class="listing">
           <h2 class="list-title">Title</h2>
           <h3 class="list-distance">miles</h3>
-        </div>
+        <ActivityCard />
+        <p className="App-intro">
+          To get started, edit <code>src/App.js</code> and save to reload.
+        </p>
       </div>
     );
   }
