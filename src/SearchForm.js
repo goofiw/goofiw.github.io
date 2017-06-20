@@ -15,7 +15,7 @@ class SearchForm extends Component {
           Name:
           <input type="text" value={this.props.searchValue} onChange={this.handleChange} />
         </label>
-        <input id="search-button" type="submit" value="Search" />
+        <input id="search-button" type="submit" value="Find Near Me" />
       </form>
     );
   }

@@ -47,13 +47,16 @@ class App extends Component {
           onSearchSubmit={(event) => this.handleSearchSubmit(event)}
           onSearchChange={(event) => this.handleSearchChange(event)}
         />
-        <div class="listing">
-          <h2 class="list-title">Title</h2>
-          <h3 class="list-distance">miles</h3>
+        <h2 className="section-header">Within 100 feet</h2>
         <ActivityCard />
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+        <ActivityCard />
+        <ActivityCard />
+
+        <h2 className="section-header">Within 1,000 feet</h2>
+        <ActivityCard />
+        <ActivityCard />
+        <ActivityCard />
+
       </div>
     );
   }
