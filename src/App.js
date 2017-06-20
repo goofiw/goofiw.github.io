@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import SearchForm from './SearchForm';
+import ActivityCard from './ActivityCard';
 import $ from 'jquery';
 
 class App extends Component {
@@ -46,6 +47,7 @@ class App extends Component {
           onSearchSubmit={(event) => this.handleSearchSubmit(event)}
           onSearchChange={(event) => this.handleSearchChange(event)}
         />
+        <ActivityCard />
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
